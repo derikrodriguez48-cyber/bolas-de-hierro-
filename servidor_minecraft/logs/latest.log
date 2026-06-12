@@ -1,0 +1,260 @@
+[20:48:55] [main/INFO]: Loading Minecraft 1.16.5 with Fabric Loader 0.18.2
+[20:48:55] [main/INFO]: Loading 46 mods:
+	- diggusmaximus 1.4.2-1.16.3
+	   \-- kyrptconfig 1.1.4-1.16
+	        |-- blue_endless_jankson 1.2.0
+	        \-- cloth-config2 4.8.2
+	             \-- cloth-basic-math 0.5.1
+	- fabric 0.42.0+1.16
+	   |-- fabric-api-base 0.4.0+3cc0f0907d
+	   |-- fabric-api-lookup-api-v1 1.3.1+3cc0f0907d
+	   |-- fabric-biome-api-v1 3.1.13+3cc0f0907d
+	   |-- fabric-blockrenderlayer-v1 1.1.6+3cc0f0907d
+	   |-- fabric-command-api-v1 1.1.3+3cc0f0907d
+	   |-- fabric-commands-v0 0.2.3+3cc0f0907d
+	   |-- fabric-containers-v0 0.1.12+3cc0f0907d
+	   |-- fabric-content-registries-v0 0.2.5+3cc0f0907d
+	   |-- fabric-crash-report-info-v1 0.1.4+3cc0f0907d
+	   |-- fabric-dimensions-v1 2.0.8+3cc0f0907d
+	   |-- fabric-entity-events-v1 1.2.4+3cc0f0907d
+	   |-- fabric-events-interaction-v0 0.4.5+3cc0f0907d
+	   |-- fabric-events-lifecycle-v0 0.2.2+3cc0f0907d
+	   |-- fabric-game-rule-api-v1 1.0.7+3cc0f0907d
+	   |-- fabric-item-api-v1 1.2.2+3cc0f0907d
+	   |-- fabric-item-groups-v0 0.3.1+3cc0f0907d
+	   |-- fabric-key-binding-api-v1 1.0.5+3cc0f0907d
+	   |-- fabric-keybindings-v0 0.2.2+3cc0f0907d
+	   |-- fabric-lifecycle-events-v1 1.2.2+3cc0f0907d
+	   |-- fabric-loot-tables-v1 1.0.3+3cc0f0907d
+	   |-- fabric-mining-levels-v0 0.1.4+3cc0f0907d
+	   |-- fabric-models-v0 0.3.1+3cc0f0907d
+	   |-- fabric-networking-api-v1 1.0.5+3cc0f0907d
+	   |-- fabric-networking-blockentity-v0 0.2.9+3cc0f0907d
+	   |-- fabric-networking-v0 0.3.3+3cc0f0907d
+	   |-- fabric-object-builder-api-v1 1.9.6+3cc0f0907d
+	   |-- fabric-object-builders-v0 0.7.3+3cc0f0907d
+	   |-- fabric-particles-v1 0.2.5+3cc0f0907d
+	   |-- fabric-registry-sync-v0 0.7.6+3cc0f0907d
+	   |-- fabric-renderer-api-v1 0.4.5+3cc0f0907d
+	   |-- fabric-renderer-indigo 0.4.5+3cc0f0907d
+	   |-- fabric-renderer-registries-v1 2.3.1+3cc0f0907d
+	   |-- fabric-rendering-data-attachment-v1 0.1.6+3cc0f0907d
+	   |-- fabric-rendering-fluids-v1 0.1.15+3cc0f0907d
+	   |-- fabric-rendering-v0 1.1.3+3cc0f0907d
+	   |-- fabric-rendering-v1 1.6.1+3cc0f0907d
+	   |-- fabric-resource-loader-v0 0.4.8+3cc0f0907d
+	   |-- fabric-screen-api-v1 1.0.1+3cc0f0907d
+	   |-- fabric-screen-handler-api-v1 1.1.6+3cc0f0907d
+	   |-- fabric-structure-api-v1 1.1.12+3cc0f0907d
+	   |-- fabric-tag-extensions-v0 1.1.2+3cc0f0907d
+	   |-- fabric-textures-v0 1.0.7+3cc0f0907d
+	   |-- fabric-tool-attribute-api-v1 1.2.8+3cc0f0907d
+	   \-- fabric-transfer-api-v1 1.5.0+3cc0f0907d
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 2.1.1
+	- java 11
+	- krypton 0.1.2
+	- lithium 0.6.6
+	- minecraft 1.16.5
+[20:48:55] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/bolas-de-hierro-/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:48:55] [main/INFO]: Loaded configuration file for Lithium: 80 options available, 1 override(s) found
+[20:48:56] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[20:48:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[20:48:57] [main/INFO]: Using Java 9+ class definer
+[20:49:00] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[20:49:00] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[20:49:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:49:02] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:49:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:49:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:49:02] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:49:02] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:49:02] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1))
+[20:49:03] [Worker-Main-6/INFO]: Loaded 7 recipes
+[20:49:03] [Worker-Main-6/INFO]: Loaded 927 advancements
+[20:49:05] [main/INFO]: Applied 0 biome modifications to 0 of 79 new biomes in 7.334 ms
+[20:49:05] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[20:49:05] [Server thread/INFO]: Loading properties
+[20:49:05] [Server thread/INFO]: Default game type: SURVIVAL
+[20:49:05] [Server thread/INFO]: Generating keypair
+[20:49:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:49:05] [Server thread/INFO]: Using epoll channel type
+[20:49:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:49:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:49:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:49:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:49:06] [Server thread/INFO]: Preparing level "world"
+[20:49:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:49:08] [Server thread/INFO]: Preparing spawn area: 0%
+[20:49:08] [Server thread/INFO]: Preparing spawn area: 0%
+[20:49:08] [Server thread/INFO]: Preparing spawn area: 0%
+[20:49:08] [Server thread/INFO]: Preparing spawn area: 0%
+[20:49:08] [Server thread/INFO]: Preparing spawn area: 51%
+[20:49:08] [Server thread/INFO]: Time elapsed: 2288 ms
+[20:49:08] [Server thread/INFO]: Done (2.668s)! For help, type "help"
+[20:49:12] [Server thread/INFO]: BerberUga[/10.252.172.105:53491] logged in with entity id 51 at (-1826.699999988079, 62.0, 218.09992522683507)
+[20:49:12] [Server thread/INFO]: BerberUga joined the game
+[20:49:32] [Server thread/INFO]: DERIK[/10.252.172.231:62989] logged in with entity id 454 at (-1836.2112297938493, 56.0, 209.81579146339624)
+[20:49:32] [Server thread/INFO]: DERIK joined the game
+[20:49:41] [Server thread/INFO]: [BerberUga: Teleported BerberUga to DERIK]
+[20:49:51] [Server thread/INFO]: [BerberUga: Teleported BerberUga to DERIK]
+[20:51:21] [Server thread/INFO]: Ethan12[/10.252.172.143:60054] logged in with entity id 802 at (-1747.2107711568046, 64.0, 231.32707182528026)
+[20:51:21] [Server thread/INFO]: Ethan12 joined the game
+[20:51:56] [Server thread/INFO]: M4TEOCM[/10.252.172.206:50011] logged in with entity id 896 at (-1823.2922845388018, 70.0, 265.71800140235047)
+[20:51:56] [Server thread/INFO]: M4TEOCM joined the game
+[20:56:11] [Server thread/INFO]: edison235678[/10.252.172.34:61317] logged in with entity id 1486 at (-1831.8374357656414, 60.0, 210.19268567331815)
+[20:56:11] [Server thread/INFO]: edison235678 joined the game
+[20:56:13] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[21:01:16] [Server thread/INFO]: Ethan12 lost connection: Disconnected
+[21:01:16] [Server thread/INFO]: Ethan12 left the game
+[21:04:30] [Server thread/WARN]: Fetching packet for removed entity class_1542['Beetroot Seeds'/6511, l='ServerLevel[world]', x=-1733.61, y=64.45, z=225.75]
+[21:04:30] [Server thread/WARN]: Fetching packet for removed entity class_1542['Beetroot'/6510, l='ServerLevel[world]', x=-1734.16, y=64.23, z=225.80]
+[21:05:10] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/7035, l='ServerLevel[world]', x=-1830.27, y=57.00, z=211.97]
+[21:06:50] [Server thread/INFO]: [edison235678: Teleported edison235678 to -143.5, 64.0, 247.5]
+[21:07:27] [Server thread/INFO]: [edison235678: Teleported edison235678 to -143.5, 64.0, 555.5]
+[21:10:00] [Server thread/INFO]: BerberUga has made the advancement [A Terrible Fortress]
+[21:11:22] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:11:22] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/13232, l='ServerLevel[world]', x=-1832.53, y=57.04, z=212.64]
+[21:11:48] [Server thread/INFO]: [BerberUga: Teleported BerberUga to DERIK]
+[21:13:56] [Server thread/INFO]: DERIK lost connection: Disconnected
+[21:13:56] [Server thread/INFO]: DERIK left the game
+[21:14:01] [Server thread/INFO]: [edison235678: Teleported edison235678 to M4TEOCM]
+[21:15:18] [Server thread/INFO]: DERIK[/10.252.172.231:58720] logged in with entity id 16551 at (-1820.290189814493, 64.0, 227.31326495330592)
+[21:15:18] [Server thread/INFO]: DERIK joined the game
+[21:16:30] [Server thread/INFO]: <edison235678> mario
+[21:18:27] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to -1344.077, 32.0, 1853.755]
+[21:18:36] [Server thread/INFO]: [BerberUga: Teleported BerberUga to M4TEOCM]
+[21:18:36] [Server thread/INFO]: BerberUga has made the advancement [Eye Spy]
+[21:19:21] [Server thread/INFO]: [DERIK: Teleported DERIK to edison235678]
+[21:19:32] [Server thread/INFO]: [BerberUga: Teleported BerberUga to DERIK]
+[21:19:35] [Server thread/INFO]: [BerberUga: Teleported BerberUga to M4TEOCM]
+[21:19:38] [Server thread/INFO]: [BerberUga: Teleported DERIK to BerberUga]
+[21:19:39] [Server thread/INFO]: DERIK has made the advancement [Eye Spy]
+[21:19:43] [Server thread/INFO]: [BerberUga: Teleported edison235678 to BerberUga]
+[21:19:44] [Server thread/INFO]: edison235678 has made the advancement [Eye Spy]
+[21:19:53] [Server thread/INFO]: edison235678 has made the advancement [The End?]
+[21:19:53] [Server thread/INFO]: BerberUga has made the advancement [The End?]
+[21:19:54] [Server thread/WARN]: edison235678 moved too quickly! 1456.685668121008,14.392604549951344,-1852.8800569781201
+[21:19:55] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[21:19:55] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[21:19:55] [Server thread/INFO]: M4TEOCM has made the advancement [The End?]
+[21:19:55] [Server thread/INFO]: DERIK has made the advancement [The End?]
+[21:19:55] [Server thread/WARN]: M4TEOCM moved too quickly! 1455.8224081369242,14.392604549951344,-1852.4381112660164
+[21:19:56] [Server thread/WARN]: DERIK moved too quickly! 1456.3885721590732,14.392604549951344,-1853.2807349796954
+[21:22:06] [Server thread/INFO]: [edison235678: Teleported edison235678 to -1842.314, 56.0, 207.5]
+[21:22:10] [Server thread/INFO]: [edison235678: Teleported edison235678 to M4TEOCM]
+[21:22:23] [Server thread/INFO]: M4TEOCM was killed by Ender Dragon using magic
+[21:22:23] [Server thread/INFO]: edison235678 was killed by Ender Dragon using magic
+[21:22:32] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to DERIK]
+[21:22:35] [Server thread/INFO]: M4TEOCM fell from a high place
+[21:22:36] [Server thread/INFO]: [edison235678: Teleported edison235678 to M4TEOCM]
+[21:22:47] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to BerberUga]
+[21:22:53] [Server thread/INFO]: [edison235678: Teleported edison235678 to M4TEOCM]
+[21:22:59] [Server thread/INFO]: edison235678 was slain by Ender Dragon
+[21:23:04] [Server thread/INFO]: [edison235678: Teleported edison235678 to M4TEOCM]
+[21:23:15] [Server thread/INFO]: M4TEOCM was slain by Ender Dragon
+[21:23:25] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to edison235678]
+[21:25:09] [Server thread/INFO]: DERIK has reached the goal [Postmortal]
+[21:26:16] [Server thread/INFO]: DERIK fell from a high place
+[21:26:32] [Server thread/INFO]: [DERIK: Teleported DERIK to edison235678]
+[21:27:10] [Server thread/INFO]: M4TEOCM was killed by Ender Dragon using magic
+[21:27:17] [Server thread/INFO]: DERIK was killed by Ender Dragon using magic
+[21:27:17] [Server thread/INFO]: edison235678 was killed by Ender Dragon using magic
+[21:27:20] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to edison235678]
+[21:27:28] [Server thread/INFO]: [BerberUga: Teleported edison235678 to BerberUga]
+[21:27:29] [Server thread/INFO]: [BerberUga: Teleported DERIK to BerberUga]
+[21:27:32] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to BerberUga]
+[21:28:04] [Server thread/INFO]: M4TEOCM has made the advancement [Free the End]
+[21:28:53] [Server thread/INFO]: DERIK has reached the goal [The Next Generation]
+[21:28:57] [Server thread/INFO]: [edison235678: Teleported edison235678 to M4TEOCM]
+[21:29:56] [Server thread/WARN]: Boat (vehicle of BerberUga) moved too quickly! 298.9778901495403,18.0,951.109919770863
+[21:29:56] [Server thread/WARN]: Boat (vehicle of BerberUga) moved too quickly! 298.9707643838611,18.0,951.0900880344458
+[21:29:56] [Server thread/WARN]: Boat (vehicle of BerberUga) moved too quickly! 298.9533062073329,18.0,951.0404237213429
+[21:29:56] [Server thread/WARN]: Boat (vehicle of BerberUga) moved too quickly! 298.92965220471575,18.0,950.972858596697
+[21:29:56] [Server thread/WARN]: Boat (vehicle of BerberUga) moved too quickly! 298.90228432764894,18.0,950.894551722892
+[21:29:56] [Server thread/WARN]: Boat (vehicle of BerberUga) moved too quickly! 298.8726917470273,18.0,950.8097985371022
+[21:29:56] [Server thread/WARN]: Boat (vehicle of BerberUga) moved too quickly! 298.84176434258853,18.0,950.7211775593005
+[21:29:56] [Server thread/WARN]: Boat (vehicle of BerberUga) moved too quickly! 298.81003966574116,18.0,950.6302346470512
+[21:29:56] [Server thread/WARN]: Boat (vehicle of BerberUga) moved too quickly! 298.77783662542953,18.0,950.5378985740781
+[21:30:15] [Server thread/INFO]: [DERIK: Teleported DERIK to BerberUga]
+[21:30:19] [Server thread/INFO]: edison235678 has made the advancement [Remote Getaway]
+[21:30:39] [Server thread/WARN]: edison235678 moved too quickly! -6.556753879375094,-16.0,-7.197379196891234
+[21:30:49] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:31:54] [Server thread/INFO]: DERIK has made the advancement [The City at the End of the Game]
+[21:31:54] [Server thread/INFO]: BerberUga has made the advancement [The City at the End of the Game]
+[21:32:32] [Server thread/INFO]: edison235678 has made the advancement [The City at the End of the Game]
+[21:32:44] [Server thread/INFO]: edison235678 has reached the goal [Sky's the Limit]
+[21:35:09] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:35:47] [Server thread/INFO]: [BerberUga: Teleported BerberUga to edison235678]
+[21:35:47] [Server thread/INFO]: BerberUga has completed the challenge [Great View From Up Here]
+[21:35:59] [Server thread/INFO]: BerberUga has reached the goal [Sky's the Limit]
+[21:39:24] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:39:48] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[21:40:41] [Server thread/INFO]: BerberUga was slain by Shulker
+[21:40:42] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to edison235678]
+[21:40:44] [Server thread/INFO]: M4TEOCM has made the advancement [The City at the End of the Game]
+[21:40:46] [Server thread/INFO]: [BerberUga: Teleported BerberUga to edison235678]
+[21:41:12] [Server thread/WARN]: edison235678 moved too quickly! 5.957088948874514,-16.0,7.96279303150277
+[21:41:17] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[21:41:36] [Server thread/WARN]: DERIK moved too quickly! 7.908660153162259,-4.0,-7.025223544879736
+[21:42:59] [Server thread/WARN]: DERIK moved too quickly! 1.5475460953277889,-8.0,-7.040867596969292
+[21:43:15] [Server thread/WARN]: edison235678 moved too quickly! -1.1496259030923,-79.0,5.46085433093981
+[21:43:50] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[21:43:50] [Server thread/INFO]: edison235678 has completed the challenge [Great View From Up Here]
+[21:44:29] [Server thread/INFO]: [BerberUga: Teleported BerberUga to DERIK]
+[21:44:34] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[21:45:41] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:47:55] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:48:21] [Server thread/INFO]: [BerberUga: Teleported BerberUga to -1813.954, 64.0, 227.615]
+[21:49:26] [Server thread/INFO]: [edison235678: Teleported edison235678 to 155.5, 90.0, -1801.47]
+[21:49:28] [Server thread/INFO]: edison235678 fell from a high place
+[21:49:33] [Server thread/INFO]: [edison235678: Teleported edison235678 to 155.5, 90.0, -1801.47]
+[21:49:39] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:49:44] [Server thread/INFO]: edison235678 fell from a high place
+[21:49:46] [Server thread/WARN]: Fetching packet for removed entity class_1542['Wheat Seeds'/30351, l='ServerLevel[world]', x=-1753.73, y=63.94, z=231.53]
+[21:49:50] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:50:14] [Server thread/INFO]: [edison235678: Teleported edison235678 to 155.5, 6100000.0, -1801.47]
+[21:50:25] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:50:26] [Server thread/INFO]: edison235678 fell from a high place
+[21:50:32] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:51:36] [Server thread/INFO]: M4TEOCM lost connection: Disconnected
+[21:51:36] [Server thread/INFO]: M4TEOCM left the game
+[21:52:04] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:52:27] [Server thread/INFO]: [BerberUga: Teleported edison235678 to BerberUga]
+[21:52:34] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:52:53] [Server thread/INFO]: [BerberUga: Teleported edison235678 to BerberUga]
+[21:53:05] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:53:20] [Server thread/INFO]: DERIK has reached the goal [Sky's the Limit]
+[21:55:03] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:55:44] [Server thread/INFO]: BerberUga fell out of the world
+[21:55:44] [Server thread/INFO]: [BerberUga: Killed BerberUga]
+[21:58:57] [Server thread/INFO]: [BerberUga: Teleported BerberUga to edison235678]
+[21:59:21] [Server thread/INFO]: [BerberUga: Teleported BerberUga to DERIK]
+[21:59:24] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:59:37] [Server thread/INFO]: [BerberUga: Teleported DERIK to BerberUga]
+[21:59:45] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:59:51] [Server thread/INFO]: DERIK has made the advancement [Local Brewery]
+[21:59:52] [Server thread/INFO]: [BerberUga: Teleported edison235678 to BerberUga]
+[22:02:05] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[22:02:46] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[22:02:53] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[22:03:17] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[22:03:40] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[22:04:37] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[22:05:04] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[22:05:31] [Server thread/INFO]: [DERIK: Teleported DERIK to edison235678]
+[22:06:07] [Server thread/WARN]: edison235678 moved too quickly! -6.645386154481457,-28.0,7.690129565638799
+[22:07:41] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[22:08:02] [Server thread/WARN]: edison235678 moved too quickly! -0.305674953912785,-44.0,3.909695113968553
+[22:08:38] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[22:08:41] [Server thread/WARN]: edison235678 moved too quickly! 4.956757064773228,-54.0,7.7797378500207515
+[22:08:44] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[22:11:03] [Server thread/WARN]: edison235678 moved too quickly! -5.084608007242423,-12.0,1.4668175616158123
+[22:11:14] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[22:11:20] [Server thread/WARN]: edison235678 moved too quickly! 5.659180533939889,-9.0,5.012480877106327
+[22:11:35] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[22:13:04] [Server thread/INFO]: [edison235678: Teleported edison235678 to BerberUga]
+[22:13:16] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[22:14:27] [Server thread/INFO]: DERIK was slain by Enderman
+[22:14:49] [Server thread/INFO]: [DERIK: Teleported DERIK to edison235678]
